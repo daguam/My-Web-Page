@@ -11,6 +11,10 @@ body {
     backface-visibility: hidden;
     margin-bottom: 6rem;
 
+    @include respond(phone){
+        margin-bottom: 3rem;
+    }
+
 
     &--main {
         display: block;

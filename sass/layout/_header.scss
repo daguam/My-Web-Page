@@ -16,6 +16,9 @@
         top: 75%;
         left: 50%;
         transform: translate(-50%, -50%);
+        @include respond(phone){
+            top: 65%;
+        }
     }
 
     &__logo-box {
@@ -23,6 +26,10 @@
         top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        @include respond(phone){
+            top: 30%;
+        }
     }
 
     &__logo {

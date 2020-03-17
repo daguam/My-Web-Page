@@ -528,6 +528,9 @@ body {
   color: #fff;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary {
+      margin-bottom: 3rem; } }
   .heading-primary--main {
     display: block;
     font-size: 3rem;
@@ -791,11 +794,17 @@ body {
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media only screen and (max-width: 37.5em) {
+      .header__text-box {
+        top: 65%; } }
   .header__logo-box {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media only screen and (max-width: 37.5em) {
+      .header__logo-box {
+        top: 30%; } }
   .header__logo {
     max-width: 100%;
     height: auto;
