@@ -26,7 +26,9 @@
     }
 
     &__logo {
-        height: 100%;
+        max-width: 100%;
+        height: auto;
+        min-width: 250px;
         
         animation: logoAnimation 4s ease-in;
     }

@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="css/icon-font.css">
+        <!--<link rel="stylesheet" href="css/icon-font.css">-->
+        
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
@@ -54,9 +55,21 @@
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
-                            <img src="img/img-art.jpg" alt="art" class="composition__photo composition__photo--p1">
-                            <img src="img/img-tech.jpg" alt="tech" class="composition__photo composition__photo--p2">
-                            <img src="img/img-science.jpg" alt="science" class="composition__photo composition__photo--p3">
+                            <img src="img/img-art.jpg"
+                                 alt="art"
+                                 class="composition__photo composition__photo--p1"
+                                 srcset="img/img-art-small.jpg 266w, img/img-art.jpg 1065w"
+                                 sizes="(max-width: 900px) 13vw, (max-width: 600px) 20vw, 266px">
+                            <img src="img/img-tech.jpg"
+                                 alt="tech"
+                                 class="composition__photo composition__photo--p2"
+                                 srcset="img/img-science-small.jpg 281w, img/img-science.jpg 1123w"
+                                 sizes="(max-width: 900px) 13vw, (max-width: 600px) 20vw, 281px">
+                            <img src="img/img-science.jpg" 
+                                 alt="science"
+                                 class="composition__photo composition__photo--p3"
+                                 srcset="img/img-tech-small.jpg 569w, img/img-tech.jpg 1138w"
+                                 sizes="(max-width: 900px) 13vw, (max-width: 600px) 20vw, 569px">
                         </div>
                     </div>
                 </div>
